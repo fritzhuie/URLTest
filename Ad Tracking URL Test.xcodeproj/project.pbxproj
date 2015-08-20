@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9623E71B863DBA00767B9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9623E61B863DBA00767B9F /* main.m */; };
+		1F9623EA1B863DBA00767B9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9623E91B863DBA00767B9F /* AppDelegate.m */; };
+		1F9623ED1B863DBA00767B9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9623EC1B863DBA00767B9F /* ViewController.m */; };
+		1F9623F01B863DBA00767B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9623EE1B863DBA00767B9F /* Main.storyboard */; };
+		1F9623F21B863DBA00767B9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9623F11B863DBA00767B9F /* Images.xcassets */; };
+		1F9623F51B863DBA00767B9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9623F31B863DBA00767B9F /* LaunchScreen.xib */; };
+		1F9624011B863DBA00767B9F /* Ad_Tracking_URL_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9624001B863DBA00767B9F /* Ad_Tracking_URL_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9623FB1B863DBA00767B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9623D91B863DBA00767B9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9623E01B863DBA00767B9F;
+			remoteInfo = "Ad Tracking URL Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9623E11B863DBA00767B9F /* Ad Tracking URL Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Tracking URL Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9623E51B863DBA00767B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9623E61B863DBA00767B9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9623E81B863DBA00767B9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F9623E91B863DBA00767B9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9623EB1B863DBA00767B9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F9623EC1B863DBA00767B9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F9623EF1B863DBA00767B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9623F11B863DBA00767B9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F9623F41B863DBA00767B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F9623FA1B863DBA00767B9F /* Ad Tracking URL TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad Tracking URL TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9623FF1B863DBA00767B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9624001B863DBA00767B9F /* Ad_Tracking_URL_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ad_Tracking_URL_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9623DE1B863DBA00767B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9623F71B863DBA00767B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9623D81B863DBA00767B9F = {
+			isa = PBXGroup;
+			children = (
+				1F9623E31B863DBA00767B9F /* Ad Tracking URL Test */,
+				1F9623FD1B863DBA00767B9F /* Ad Tracking URL TestTests */,
+				1F9623E21B863DBA00767B9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9623E21B863DBA00767B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9623E11B863DBA00767B9F /* Ad Tracking URL Test.app */,
+				1F9623FA1B863DBA00767B9F /* Ad Tracking URL TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9623E31B863DBA00767B9F /* Ad Tracking URL Test */ = {
+			isa = PBXGroup;
+			children = (
+				1F9623E81B863DBA00767B9F /* AppDelegate.h */,
+				1F9623E91B863DBA00767B9F /* AppDelegate.m */,
+				1F9623EB1B863DBA00767B9F /* ViewController.h */,
+				1F9623EC1B863DBA00767B9F /* ViewController.m */,
+				1F9623EE1B863DBA00767B9F /* Main.storyboard */,
+				1F9623F11B863DBA00767B9F /* Images.xcassets */,
+				1F9623F31B863DBA00767B9F /* LaunchScreen.xib */,
+				1F9623E41B863DBA00767B9F /* Supporting Files */,
+			);
+			path = "Ad Tracking URL Test";
+			sourceTree = "<group>";
+		};
+		1F9623E41B863DBA00767B9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9623E51B863DBA00767B9F /* Info.plist */,
+				1F9623E61B863DBA00767B9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9623FD1B863DBA00767B9F /* Ad Tracking URL TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9624001B863DBA00767B9F /* Ad_Tracking_URL_TestTests.m */,
+				1F9623FE1B863DBA00767B9F /* Supporting Files */,
+			);
+			path = "Ad Tracking URL TestTests";
+			sourceTree = "<group>";
+		};
+		1F9623FE1B863DBA00767B9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9623FF1B863DBA00767B9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9623E01B863DBA00767B9F /* Ad Tracking URL Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9624041B863DBA00767B9F /* Build configuration list for PBXNativeTarget "Ad Tracking URL Test" */;
+			buildPhases = (
+				1F9623DD1B863DBA00767B9F /* Sources */,
+				1F9623DE1B863DBA00767B9F /* Frameworks */,
+				1F9623DF1B863DBA00767B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ad Tracking URL Test";
+			productName = "Ad Tracking URL Test";
+			productReference = 1F9623E11B863DBA00767B9F /* Ad Tracking URL Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9623F91B863DBA00767B9F /* Ad Tracking URL TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9624071B863DBA00767B9F /* Build configuration list for PBXNativeTarget "Ad Tracking URL TestTests" */;
+			buildPhases = (
+				1F9623F61B863DBA00767B9F /* Sources */,
+				1F9623F71B863DBA00767B9F /* Frameworks */,
+				1F9623F81B863DBA00767B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9623FC1B863DBA00767B9F /* PBXTargetDependency */,
+			);
+			name = "Ad Tracking URL TestTests";
+			productName = "Ad Tracking URL TestTests";
+			productReference = 1F9623FA1B863DBA00767B9F /* Ad Tracking URL TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9623D91B863DBA00767B9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Unity;
+				TargetAttributes = {
+					1F9623E01B863DBA00767B9F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F9623F91B863DBA00767B9F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1F9623E01B863DBA00767B9F;
+					};
+				};
+			};
+			buildConfigurationList = 1F9623DC1B863DBA00767B9F /* Build configuration list for PBXProject "Ad Tracking URL Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9623D81B863DBA00767B9F;
+			productRefGroup = 1F9623E21B863DBA00767B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9623E01B863DBA00767B9F /* Ad Tracking URL Test */,
+				1F9623F91B863DBA00767B9F /* Ad Tracking URL TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9623DF1B863DBA00767B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9623F01B863DBA00767B9F /* Main.storyboard in Resources */,
+				1F9623F51B863DBA00767B9F /* LaunchScreen.xib in Resources */,
+				1F9623F21B863DBA00767B9F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9623F81B863DBA00767B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9623DD1B863DBA00767B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9623ED1B863DBA00767B9F /* ViewController.m in Sources */,
+				1F9623EA1B863DBA00767B9F /* AppDelegate.m in Sources */,
+				1F9623E71B863DBA00767B9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9623F61B863DBA00767B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9624011B863DBA00767B9F /* Ad_Tracking_URL_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9623FC1B863DBA00767B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9623E01B863DBA00767B9F /* Ad Tracking URL Test */;
+			targetProxy = 1F9623FB1B863DBA00767B9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9623EE1B863DBA00767B9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9623EF1B863DBA00767B9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9623F31B863DBA00767B9F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9623F41B863DBA00767B9F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9624021B863DBA00767B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9624031B863DBA00767B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9624051B863DBA00767B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ad Tracking URL Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F9624061B863DBA00767B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ad Tracking URL Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F9624081B863DBA00767B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ad Tracking URL TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Tracking URL Test.app/Ad Tracking URL Test";
+			};
+			name = Debug;
+		};
+		1F9624091B863DBA00767B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ad Tracking URL TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Tracking URL Test.app/Ad Tracking URL Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9623DC1B863DBA00767B9F /* Build configuration list for PBXProject "Ad Tracking URL Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9624021B863DBA00767B9F /* Debug */,
+				1F9624031B863DBA00767B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9624041B863DBA00767B9F /* Build configuration list for PBXNativeTarget "Ad Tracking URL Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9624051B863DBA00767B9F /* Debug */,
+				1F9624061B863DBA00767B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F9624071B863DBA00767B9F /* Build configuration list for PBXNativeTarget "Ad Tracking URL TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9624081B863DBA00767B9F /* Debug */,
+				1F9624091B863DBA00767B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9623D91B863DBA00767B9F /* Project object */;
+}
