@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 @import Foundation;
 
-@interface ViewController : UIViewController <NSURLConnectionDelegate>
+@interface ViewController : UIViewController <NSURLConnectionDelegate, UITextViewDelegate>
 {
     NSMutableData *_responseData;
+    __weak IBOutlet UITextView *textLog;
 }
 
 

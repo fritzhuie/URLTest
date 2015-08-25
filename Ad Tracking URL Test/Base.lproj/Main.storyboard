@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,8 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-5n-JAr">
-                                <rect key="frame" x="218" y="135" width="201" height="30"/>
+                                <rect key="frame" x="213" y="35" width="197" height="58"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="z4S-8J-GIf"/>
+                                </constraints>
                                 <state key="normal" title="Send GET Request">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -27,22 +29,45 @@
                                     <action selector="testAdNetworkURLRequest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzl-CS-C80"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GWm-v0-j6V">
-                                <rect key="frame" x="198" y="197" width="300" height="277"/>
-                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="something is wrong if you can read this" translatesAutoresizingMaskIntoConstraints="NO" id="8t8-lr-tTf">
+                                <rect key="frame" x="198" y="184" width="240" height="408"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="FAj-jf-qME"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GWm-v0-j6V" firstAttribute="top" secondItem="aFd-5n-JAr" secondAttribute="bottom" constant="32" id="SVh-1S-xXo"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GWm-v0-j6V" secondAttribute="bottom" constant="10" id="nHC-QG-3W7"/>
-                            <constraint firstItem="GWm-v0-j6V" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="o8b-1l-aqI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8t8-lr-tTf" secondAttribute="bottom" constant="8" id="9kd-4r-F6d"/>
+                            <constraint firstItem="8t8-lr-tTf" firstAttribute="top" secondItem="aFd-5n-JAr" secondAttribute="bottom" constant="10" id="FcI-eZ-SbX"/>
+                            <constraint firstAttribute="centerY" secondItem="8t8-lr-tTf" secondAttribute="centerY" constant="-88" id="KEG-0D-bze"/>
+                            <constraint firstAttribute="centerX" secondItem="8t8-lr-tTf" secondAttribute="centerX" id="Q2a-JO-Blw"/>
+                            <constraint firstAttribute="width" secondItem="8t8-lr-tTf" secondAttribute="width" id="TkK-iR-bXI"/>
+                            <constraint firstItem="aFd-5n-JAr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="X4C-Eb-gnp"/>
                             <constraint firstAttribute="centerY" secondItem="aFd-5n-JAr" secondAttribute="centerY" constant="150" id="o9g-mi-oA2"/>
                             <constraint firstAttribute="centerX" secondItem="aFd-5n-JAr" secondAttribute="centerX" constant="-0.5" id="zAa-gB-Yxj"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="o9g-mi-oA2"/>
+                                <exclude reference="KEG-0D-bze"/>
+                                <exclude reference="TkK-iR-bXI"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="textLog" destination="8t8-lr-tTf" id="LWZ-W2-ha7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1083" y="395"/>
         </scene>
     </scenes>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
